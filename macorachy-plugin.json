@@ -1,0 +1,9 @@
+{
+  "id": "cap",
+  "name": "Cap",
+  "symbol": "record.circle",
+  "start": "zsh macorachy-run.sh",
+  "stop": "docker compose --env-file .env.macorachy -p cap stop; rm -f /tmp/cap.url",
+  "urlFile": "/tmp/cap.url",
+  "stopOnQuit": true
+}
